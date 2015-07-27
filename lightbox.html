@@ -2,9 +2,27 @@
 <html>
 <head lang="en">
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html">
   <title>Demo View</title>
+  <link rel="stylesheet" type="text/css" href="lightbox.css">
 </head>
 <body>
+<div id="lightbox-mask">
 
+</div>
+<div id="lightbox-popup">
+  <div class="lightbox-pic-view">
+    <span class="lightbox-btn lightbox-prev-btn icon-arrow-with-circle-left"></span>
+    <img class="lightbox-image" src="images/1.jpg" width="100%">
+    <span class="lightbox-btn lightbox-next-btn icon-arrow-with-circle-right"></span>
+  </div>
+  <div class="light-pic-caption">
+    <div class="lightbox-caption-area">
+      <p class="lightbox-pic-desc">Image Title</p>
+      <span class="lightbox-index">Current Index: 1 of 4</span>
+    </div>
+    <span class="lightbox-close-btn"></span>
+  </div>
+</div>
 </body>
 </html>
