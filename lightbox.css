@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:url('fonts/icomoon.eot?');
+  src:url('fonts/icomoon.eot');
   src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-  url('fonts/icomoon.ttf?') format('truetype'),
-  url('fonts/icomoon.woff?') format('woff'),
-  url('fonts/icomoon.svg?') format('svg');
+  url('fonts/icomoon.ttf') format('truetype'),
+  url('fonts/icomoon.woff') format('woff'),
+  url('fonts/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,12 +23,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cross:before {
+  content: "\e603";
+}
+.icon-spinner:before {
+  content: "\e602";
+}
 .icon-arrow-with-circle-right:before {
   content: "\e601";
 }
 .icon-arrow-with-circle-left:before {
   content: "\e600";
 }
+
 
 #lightbox-mask {
   position: fixed;
@@ -40,22 +47,26 @@
   opacity: 0.5;
   filter: alpha(opacity=50%);
   z-index:1;
+  display: none;
 }
 #lightbox-popup {
   position: fixed;
   left: 50%;
-  top: 0;
+  top: 15%;
   right: 50%;
+  height: 0;
   margin-left: -25%;
   margin-right: -25%;
   background-color: #9c0;
   z-index: 2;
+  display: none;
 }
 .lightbox-pic-view {
   position: relative;
   border: 5px solid #fff;
   border-radius: 3px;
   overflow: hidden;
+  display: block;
 }
 .lightbox-btn {
   position: absolute;
@@ -65,6 +76,8 @@
   padding-top: 30%;
   z-index: 3;
   font-size: 50px;
+  cursor: pointer;
+  color: #fff;
 }
 .lightbox-prev-btn {
   left: 0;
@@ -73,4 +86,40 @@
   text-align: right;
   right: 0;
 }
+
+.lightbox-pic-caption {
+  position: relative;
+  top: -100px;
+  margin: 0 10px;
+  background-color: #0c6;
+}
+
+.lightbox-caption-area {
+  padding: 10px 10px;
+  color: #fff;
+}
+
+.lightbox-index {
+  color: #999;
+}
+
+.lightbox-close-btn {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.icon-cross {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+
+
+
 

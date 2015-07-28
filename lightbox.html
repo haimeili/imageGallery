@@ -7,22 +7,39 @@
   <link rel="stylesheet" type="text/css" href="lightbox.css">
 </head>
 <body>
-<div id="lightbox-mask">
+<h1>Group1</h1>
+<div>
+  <img class="js-lightbox"
+       data-role="lightbox"
+       data-source="images/1.JPG"
+       data-group="group-1"
+       data-id="group-1-1"
+       data-caption="group-1-1-title"
+       src="images/1.JPG" width="100" height="100">
+  <img class="js-lightbox"
+       data-role="lightbox"
+       data-source="images/1.JPG"
+       data-group="group-1"
+       data-id="group-1-2"
+       data-caption="group-1-2-title"
+       src="images/1.JPG" width="100" height="100">
+</div>
+<h1>Group2</h1>
+<div>
+  <img class="js-lightbox"
+       data-role="lightbox"
+       data-source="images/1.JPG"
+       data-group="group-2"
+       data-id="group-2-1"
+       data-caption="group-2-1-title"
+       src="images/1.JPG" width="100" height="100">
+</div>
 
-</div>
-<div id="lightbox-popup">
-  <div class="lightbox-pic-view">
-    <span class="lightbox-btn lightbox-prev-btn icon-arrow-with-circle-left"></span>
-    <img class="lightbox-image" src="images/1.jpg" width="100%">
-    <span class="lightbox-btn lightbox-next-btn icon-arrow-with-circle-right"></span>
-  </div>
-  <div class="light-pic-caption">
-    <div class="lightbox-caption-area">
-      <p class="lightbox-pic-desc">Image Title</p>
-      <span class="lightbox-index">Current Index: 1 of 4</span>
-    </div>
-    <span class="lightbox-close-btn"></span>
-  </div>
-</div>
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="lightbox.js"></script>
+<script>
+  var lightbox = new Lightbox();
+</script>
 </body>
 </html>
