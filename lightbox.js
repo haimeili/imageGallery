@@ -168,8 +168,8 @@
       }, self.settings.speed);
 
       this.popupBody.animate({
-        width: width,
-        height: height,
+        maxWidth: width,
+        maxHeight: height,
         marginLeft: -(width/2),
         top: ($(window).height() - height)/2
       }, self.settings.speed, function() {
