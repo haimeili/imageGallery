@@ -5,7 +5,7 @@ h1 {
 .demo-img {
   border-radius: 10px;
   margin: 5px 10px;
-  box-shadow: 3px 3px rgba(0,0,0,.4);
+  box-shadow: 0 0 5px rgba(0,0,0,.6);
 }
 .demo-group {
   position: absolute;
@@ -22,4 +22,10 @@ h1 {
 .group img{
   max-width: 150px;
   max-height: 150px;
+}
+
+.group img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0,0,0,.6);
 }

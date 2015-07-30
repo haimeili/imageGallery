@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf00a1-c6e6-404f-9e88-d0d8e79f48b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/1.JPG" afterPath="$PROJECT_DIR$/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lightbox.css" afterPath="$PROJECT_DIR$/css/lightbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox.html" afterPath="$PROJECT_DIR$/lightbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lightbox.js" afterPath="$PROJECT_DIR$/lightbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="$PROJECT_DIR$/css/demo.css" />
     </list>
     <ignored path="imageGallery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,24 +26,26 @@
     <favorites_list name="imageGallery" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40110907">
+    <splitter split-orientation="horizontal" split-proportion="0.7828096">
       <split-first>
         <leaf>
-          <file leaf-file-name="lightbox.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lightbox.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lightbox.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38071066" vertical-offset="30" max-vertical-offset="2175">
-                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-                  <folding />
+                <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="435">
+                  <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="137" selection-end-column="9" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="345">
-                  <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="585">
+                  <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
                   <folding />
                 </state>
               </provider>
@@ -85,8 +71,8 @@
           <file leaf-file-name="demo.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/demo.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.77751195" vertical-offset="20" max-vertical-offset="450">
-                  <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.5609756" vertical-offset="0" max-vertical-offset="615">
+                  <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -113,12 +99,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/images/icons.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lightbox.css" />
         <option value="$PROJECT_DIR$/demo.css" />
         <option value="$PROJECT_DIR$/lightbox.html" />
         <option value="$PROJECT_DIR$/lightbox.js" />
         <option value="$PROJECT_DIR$/css/demo.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -128,7 +114,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="515" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -191,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../darwin/dao-play-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../haimeili.github.io" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -266,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="515" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -314,7 +300,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -349,7 +337,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,7 +374,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="750">
           <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,7 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="495">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,7 +440,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="495">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,7 +469,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="495">
           <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,17 +491,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="345">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
     </entry>
@@ -511,14 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8148148" vertical-offset="1802" max-vertical-offset="2130">
           <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38071066" vertical-offset="30" max-vertical-offset="2175">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -533,10 +512,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77751195" vertical-offset="20" max-vertical-offset="450">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.5609756" vertical-offset="0" max-vertical-offset="615">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lightbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="435">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="137" selection-end-column="9" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="585">
+          <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

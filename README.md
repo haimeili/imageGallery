@@ -16,3 +16,12 @@ When you define images, you might need to add these attributes:
     data-id="group-1-1"
     // this element describes the file
     data-caption="group-1-1-title"
+
+
+
+If you want to view demo, you can go here: [http://haimeili.github.io/](http://haimeili.github.io/)
+
+If you want to apply this plugin to your project, You just need to add lightbox.css and lightbox.js.
+Meanwhile, please care about the attributes which is required in your code.
+
+If you don't know how to use it, you can refer to lightbox.html to check its usage. Treat me, quite easy.
