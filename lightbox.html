@@ -39,7 +39,12 @@
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
 <script src="lightbox.js"></script>
 <script>
-  var lightbox = new Lightbox();
+  var lightbox = new Lightbox({
+    speed: 600,
+    maxWidth: 900,
+    maxHeight: 600,
+    maskOpacity:.4
+  });
 </script>
 </body>
 </html>

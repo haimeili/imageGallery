@@ -1,6 +1,15 @@
 ;(function ($) {
-  var Lightbox = function () {
+  var Lightbox = function (settings) {
     var self = this;
+
+    this.settings = {
+      speed : 500,
+      maxWidth: 800,
+      maxHeight: 600,
+      maskOpacity:.4
+    };
+
+    $.extend(this.settings, settings || {});
 
     // create mask and popup
     this.popupMask = $('<div id="lightbox-mask">');
@@ -42,11 +51,13 @@
     this.popupMask.click(function() {
       $(this).fadeOut();
       self.popupBody.fadeOut();
+      self.clear = false;
     });
 
     this.closeBtn.click(function() {
       self.popupMask.fadeOut();
       self.popupBody.fadeOut();
+      self.clear = false;
     });
 
     this.flag = true;
@@ -78,7 +89,29 @@
         event.stopPropagation();
         self.goto("prev");
       }
+    });
+
+    // bind window rescale event
+    var timer = null;
+    this.clear = false;
+    $(window).resize(function() {
+      if(self.clear) {
+        window.clearTimeout(timer);
+        timer = window.setTimeout(function () {
+          self.loadPicSize(self.groupData[self.index].src);
+        }, 500);
+      }
+    }).keyup(function(event) {
+      if (self.clear) {
+        var keyValue = event.which;
+        if (keyValue == 38 || keyValue == 37) {
+          self.prevBtn.click();
+        } else if (keyValue == 40 || keyValue == 39) {
+          self.nextBtn.click();
+        }
+      }
     })
+
   };
 
   Lightbox.prototype = {
@@ -125,19 +158,21 @@
       // if pic's size is bigger than view,
       var scale = Math.min($(window).width()/(picWidth+100), $(window).height()/(picHeight+200, 1));
 
-      var width = picWidth*scale-100;
-      var height = picHeight*scale-200;
+      var width = (picWidth*scale-100) * .7;
+      width = width < self.settings.maxWidth ? width:self.settings.maxWidth;
+      var height = (picHeight*scale-200) * .7;
+      height = height < self.settings.maxHeight ? height:self.settings.maxHeight;
       self.picViewArea.animate({
         width: width,
         height: height
-      });
+      }, self.settings.speed);
 
       this.popupBody.animate({
         width: width,
         height: height,
         marginLeft: -(width/2),
         top: ($(window).height() - height)/2
-      }, function() {
+      }, self.settings.speed, function() {
         self.popupPic.css({
           width: width,
           height: height
@@ -145,6 +180,7 @@
       });
 
       self.flag = true;
+      self.clear = true;
 
       self.picCaptionArea.attr("style", "display: block");
       this.captionText.text(this.groupData[this.index].caption);
@@ -172,6 +208,7 @@
       this.picCaptionArea.hide();
 
       this.popupMask.attr("style", "display: block;");
+      this.popupMask.css("opacity", self.settings.maskOpacity);
 
       var winWidth = $(window).width();
       var winHeight = $(window).height();
@@ -191,7 +228,7 @@
         top: -500
       }).animate({
         top: 150
-      }, function(){
+      }, self.settings.speed, function(){
         // load image
         self.loadPicSize(sourceSrc);
       });
