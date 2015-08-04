@@ -24,6 +24,7 @@
     this.picViewArea = this.popupBody.find("div.lightbox-pic-view");
     this.popupPic = this.popupBody.find("img.lightbox-image");
     this.picCaptionArea = this.popupBody.find("div.lightbox-pic-caption");
+    this.dirBtn = this.popupBody.find("span.lightbox-btn");
     this.nextBtn = this.popupBody.find("span.lightbox-next-btn");
     this.prevBtn = this.popupBody.find("span.lightbox-prev-btn");
     this.captionText = this.popupBody.find("p.lightbox-pic-desc");
@@ -182,6 +183,8 @@
           height: height
         }).fadeIn()
       });
+
+      this.dirBtn.attr("style", "margin-top:" + height/2 + "px");
 
       self.flag = true;
       self.clear = true;
