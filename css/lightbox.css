@@ -73,7 +73,7 @@
   top: 0;
   width: 30%;
   height: 100%;
-  padding-top: 30%;
+  margin-top: 50%;
   z-index: 3;
   font-size: 50px;
   cursor: pointer;
@@ -90,7 +90,7 @@
 .lightbox-pic-caption {
   position: relative;
   top: -80px;
-  margin: 0 10px;
+  margin: 0 5px;
   background-color: #2196F3;
   border-radius: 5px;
 }

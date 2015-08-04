@@ -155,15 +155,19 @@
     changePic: function(picWidth, picHeight) {
       var self = this;
 
-      // if pic's size is bigger than view,
-      var scale = Math.min($(window).width()/(picWidth+100), $(window).height()/(picHeight+200, 1));
+      var width = picWidth;
+      var height = picHeight;
 
-      var width = (picWidth*scale-100) * .7;
-      width = width < self.settings.maxWidth ? width:self.settings.maxWidth;
-      var height = (picHeight*scale-200) * .7;
-      height = height < self.settings.maxHeight ? height:self.settings.maxHeight;
+      var ratioX = picWidth / self.settings.maxWidth;
+      var ratioY = picHeight / self.settings.maxHeight;
+      var ratio = ratioX > ratioY ? ratioX:ratioY;
+      if (ratio > 1.0) {
+        width = picWidth / ratio;
+        height = picHeight / ratio;
+      }
+
       self.picViewArea.animate({
-        width: width,
+        maxWidth: width,
         height: height
       }, self.settings.speed);
 

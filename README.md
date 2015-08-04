@@ -1,4 +1,4 @@
-This is Image Gallery jQuery Plugin.
+This is an Image Gallery jQuery Plugin.
 
 You can include it to your project to show images.
 
@@ -17,9 +17,6 @@ When you define images, you might need to add these attributes:
     // this element describes the file
     data-caption="group-1-1-title"
 
-
-
-If you want to view demo, you can go here: [http://haimeili.github.io/](http://haimeili.github.io/)
 
 If you want to apply this plugin to your project, You just need to add lightbox.css and lightbox.js.
 Meanwhile, please care about the attributes which is required in your code.
