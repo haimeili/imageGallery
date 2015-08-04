@@ -58,11 +58,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="lightbox.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="lightbox.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/lightbox.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48639455" vertical-offset="749" max-vertical-offset="2160">
-                  <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+                <state vertical-scroll-proportion="-10.037037" vertical-offset="1109" max-vertical-offset="2160">
+                  <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -78,11 +78,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="lightbox.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="lightbox.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lightbox.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0" vertical-offset="2370" max-vertical-offset="4770">
-                  <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.56122446" vertical-offset="2445" max-vertical-offset="4905">
+                  <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/lightbox.html" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/lightbox.js" />
         <option value="$PROJECT_DIR$/css/lightbox.css" />
+        <option value="$PROJECT_DIR$/lightbox.js" />
       </list>
     </option>
   </component>
@@ -588,18 +588,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lightbox.js">
+    <entry file="file://$PROJECT_DIR$/css/lightbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="2370" max-vertical-offset="4770">
-          <caret line="176" column="6" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="6" />
+        <state vertical-scroll-proportion="-10.037037" vertical-offset="1109" max-vertical-offset="2160">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/lightbox.css">
+    <entry file="file://$PROJECT_DIR$/lightbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48639455" vertical-offset="749" max-vertical-offset="2160">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.56122446" vertical-offset="2445" max-vertical-offset="4905">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
           <folding />
         </state>
       </provider>

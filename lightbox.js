@@ -159,6 +159,9 @@
       var width = picWidth;
       var height = picHeight;
 
+      console.log(width);
+      console.log(height);
+
       var ratioX = picWidth / self.settings.maxWidth;
       var ratioY = picHeight / self.settings.maxHeight;
       var ratio = ratioX > ratioY ? ratioX:ratioY;
@@ -167,14 +170,20 @@
         height = picHeight / ratio;
       }
 
+      console.log(width);
+      console.log(height);
+
       self.picViewArea.animate({
         maxWidth: width,
+        width: width,
         height: height
       }, self.settings.speed);
 
       this.popupBody.animate({
         maxWidth: width,
+        width: width,
         maxHeight: height,
+        height: height,
         marginLeft: -(width/2),
         top: ($(window).height() - height)/2
       }, self.settings.speed, function() {
