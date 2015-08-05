@@ -1,0 +1,11 @@
+{
+  "name": "lightbox",
+  "version": 1,
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "title": "lightbox",
+  "author": "HaimeiLi",
+  "licenses": "",
+  "description": "It is an jQuery plugin for image gallery. It is suitable for a group of pictures or single picutre."
+}
